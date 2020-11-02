@@ -86,6 +86,10 @@ $ php artisan key:generate
 $ composer install
 ```
 
+```
+$ php artisan migrate --seed
+```
+
 ## Info
 
 ``` $ ./run.sh ```  Command runs docker containers
