@@ -47,3 +47,51 @@ There should be some sort of searching indicator, a spinning icon or similar.
  
 A message should be displayed if no results were found. 
 
+
+## Usage
+
+```
+$ git clone https://github.com/vmalits/hicaliber-test-monolith.git
+```
+
+```
+$ cd hicaliber-test-monolith/
+```
+
+```
+$ cp .env.example .env
+```
+
+```
+$ git submodule update --init --recursive
+```
+
+```
+$ cp .env-laradock laradock/.env
+```
+
+```
+$ ./run.sh 
+```
+
+```
+$ ./dc.sh
+```
+
+```
+$ php artisan key:generate
+```
+
+```
+$ composer install
+```
+
+## Info
+
+``` $ ./run.sh ```  Command runs docker containers
+
+``` $ ./stop.sh ```  Command stops docker containers
+
+``` $ ./dc.sh ```  Command to go to the container
+
+Project running at address ```http://localhost``` 
