@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('search/houses', SearchHouseController::class);
+Route::get('search/houses', SearchHouseController::class)->name('search-houses');
