@@ -1,7 +1,6 @@
 <template>
     <el-container>
         <el-main>
-            <search-houses/>
             <houses/>
         </el-main>
     </el-container>

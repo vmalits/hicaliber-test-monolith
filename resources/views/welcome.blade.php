@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="app">
-<dashboard/>
+    <dashboard/>
 </div>
 <script src="{{asset('js/app.js')}}"></script>
 </body>

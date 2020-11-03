@@ -8,6 +8,9 @@
 window.Vue = require('vue');
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import apiClient from '../js/services/api/ApiClient';
+window.apiClient  = apiClient();
+import store from './store';
 
 /**
  * The following block of code may be used to automatically register your
@@ -32,5 +35,6 @@ Vue.component('dashboard', require('./components/DashBoard').default);
 
 Vue.use(ElementUI);
 const app = new Vue({
+    store,
     el: '#app',
 });
